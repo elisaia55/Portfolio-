@@ -3872,6 +3872,40 @@ input, select, textarea {
 
 /* Intro */
 
+/* 
+
+css header for scrolling text 
+
+*/
+
+ .header-text {
+	width: 63ch;
+	animation: typing 4s steps(75), blink .5s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 3px solid;
+	font-family: monospace;
+	font-size: 2em;
+  }
+  
+  @keyframes typing {
+	from {
+	  width: 0
+	}
+  }
+	  
+  @keyframes blink {
+	50% {
+	  border-color: transparent
+	}
+  }
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  fit-content { border-color: orange; }
+}
+
 	#intro {
 		background-attachment: fixed;
 		background-image: url("images/intro.svg");
