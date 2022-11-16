@@ -2566,6 +2566,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		object-fit: cover;
 	}
 
 		.image img {
@@ -3879,7 +3880,7 @@ css header for scrolling text
 */
 
  .header-text {
-	width: 63ch;
+	width: 79ch;
 	animation: typing 4s steps(75), blink .5s step-end infinite alternate;
 	white-space: nowrap;
 	overflow: hidden;
