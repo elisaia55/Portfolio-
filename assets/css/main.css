@@ -3880,7 +3880,7 @@ css header for scrolling text
 */
 
  .header-text {
-	width: 79ch;
+	width: 49ch;
 	animation: typing 4s steps(75), blink .5s step-end infinite alternate;
 	white-space: nowrap;
 	overflow: hidden;
@@ -3942,3 +3942,15 @@ css header for scrolling text
 			}
 
 		}
+
+#headshot-header {
+	display: flex;
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    position: relative;
+    bottom: 10px;
+    right: 30px;
+    border-radius: 50%;
+
+}
