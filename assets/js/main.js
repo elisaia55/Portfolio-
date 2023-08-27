@@ -245,6 +245,9 @@
     }
   });
 
+  // Text Animation 
+  
+
   /**
    * Initiate Pure Counter 
    */
