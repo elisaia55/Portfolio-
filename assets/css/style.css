@@ -409,6 +409,26 @@ section .container {
   color: #fff;
 }
 
+
+.resume__button {
+  background: #18d26e;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+ 
+}
+
+.resume__button:hover{
+  border-radius: 13px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
