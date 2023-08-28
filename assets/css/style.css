@@ -426,6 +426,10 @@ section .container {
   font-weight: 500;
 }
 
+.icon__long {
+  max-width: 45px;
+  padding-right: 15px;
+}
 
 
 
