@@ -439,6 +439,7 @@ section .container {
 
 .email__hover:hover {
   text-decoration: underline;
+  color: #15bb62;
 }
 
 .resume__button2:hover{
