@@ -622,6 +622,8 @@ section .container {
   position: relative;
   z-index: 2;
   border: 6px solid rgba(255, 255, 255, 0.12);
+  object-fit:cover;
+  ;
 }
 
 .testimonials .testimonial-item h3 {
