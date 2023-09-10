@@ -203,7 +203,13 @@ Title
 }
 
 .img-fluid {
-  height: 25vh !important;
+  height: 32vh !important;
+  image-rendering: crisp-edges;
+ image-rendering: -moz-crisp-edges;          /* Firefox */
+ image-rendering: -o-crisp-edges;            /* Opera */
+ image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
+ -ms-interpolation-mode: nearest-neighbor;
+  
 
 }
 
@@ -247,6 +253,21 @@ Title
 		background-position: 0% 50%;
 	}
 }
+
+/* 
+
+portfolio details css
+
+
+
+*/
+
+.swiper-img {
+  width: 100%;
+height: 65vh;
+}
+
+
 
 /*
 
