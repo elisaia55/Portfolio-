@@ -214,17 +214,11 @@ Title
 }
 
 
-@media (min-width: 768px) {
-  .d-block{
-    height: 100px;
-    width: max-content;
-  }
-}
-
-@media (max-width: 576px) {
-  .d-block{
-    height: 100px;
-    width: max-content;
+@media screen and (max-width: 768px) {
+  .d-block {
+    max-width: 100%;
+    height: auto !important;
+    object-fit: contain !important;
   }
 }
 
