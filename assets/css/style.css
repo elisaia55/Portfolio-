@@ -213,6 +213,22 @@ Title
 
 }
 
+
+@media (min-width: 768px) {
+  .d-block{
+    height: 100px;
+    width: max-content;
+  }
+}
+
+@media (max-width: 576px) {
+  .d-block{
+    height: 100px;
+    width: max-content;
+  }
+}
+
+
 .d-block {
   height: max-content;
   width: max-content;
@@ -224,8 +240,6 @@ Title
 
    
 }
-
-
 
 .d-block:after{
   content: '';
